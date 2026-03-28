@@ -38,12 +38,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   greenweez:
     # Applies to all files under models/example/
-    staging:
-      +schema: staging
-      +materialized: view
-    intermediate:
-      +schema: inter
-      +materialized: view
-    mart:
-      +schema: finance_team
-      +materialized: table
+
