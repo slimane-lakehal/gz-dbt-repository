@@ -39,4 +39,8 @@ models:
   greenweez:
     # Applies to all files under models/example/
     staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: int
       +materialized: view
