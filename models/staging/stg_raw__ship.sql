@@ -20,4 +20,4 @@ renamed as (
 
 )
 
-select * from {{ source('raw', 'ship') }}
+select * from renamed
