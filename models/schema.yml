@@ -13,7 +13,7 @@ sources:
             tests:
               - unique
               - not_null
-      
+
       - name: sales
         identifier: raw_gz_sales
         description: sales of greenweez
@@ -36,4 +36,3 @@ sources:
             description: the cost of preparing the parcel in the distribution centre/warehouse
           - name: ship_cost
             description: shipping cost paid by Greenweez to the carrier/logistics provider
-  
