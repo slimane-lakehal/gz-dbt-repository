@@ -44,3 +44,6 @@ models:
     intermediate:
       +schema: int
       +materialized: view
+    mart:
+      +schema: mart
+      +materialized: table
