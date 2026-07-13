@@ -45,5 +45,6 @@ models:
       +schema: int
       +materialized: view
     mart:
-      +schema: mart
       +materialized: table
+      finance:
+        +schema: finance
